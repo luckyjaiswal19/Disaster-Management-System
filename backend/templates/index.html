@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Disaster Management{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 text-center">
+        <h1 class="display-4 mb-4">Disaster Management & Relief Coordination</h1>
+        <p class="lead mb-5">Coordinate relief efforts, manage resources, and help communities in need</p>
+        
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">For Users</h5>
+                        <p class="card-text">Request resources or make donations</p>
+                        <a href="/auth/login" class="btn btn-primary">User Login</a>
+                        <a href="/auth/register" class="btn btn-outline-primary">Register</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">For Administrators</h5>
+                        <p class="card-text">Manage requests and coordinate relief</p>
+                        <a href="/auth/login" class="btn btn-warning">Admin Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <h4>Demo Accounts</h4>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>Admin Account</h6>
+                            <p class="mb-1">Email: admin@disaster.org</p>
+                            <p class="mb-1">Password: password123</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>User Account</h6>
+                            <p class="mb-1">Email: john@example.com</p>
+                            <p class="mb-1">Password: password123</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

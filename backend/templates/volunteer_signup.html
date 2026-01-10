@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Become a Volunteer{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card text-center">
+            <div class="card-header bg-success text-white">
+                <h3><i class="bi bi-person-hearts"></i> Join the Volunteer Team</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Help Make a Difference</h5>
+                <p class="card-text lead">
+                    We need dedicated individuals to help coordinate relief efforts and deliver resources to those in
+                    need.
+                    As a volunteer, you will be able to:
+                </p>
+                <ul class="list-group list-group-flush text-start d-inline-block mb-4">
+                    <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> View approved resource
+                        requests nearby</li>
+                    <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Accept delivery tasks
+                    </li>
+                    <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Mark requests as
+                        fulfilled</li>
+                </ul>
+                <div class="alert alert-info">
+                    By clicking the button below, you agree to offer your time and skills for disaster relief.
+                </div>
+                <form action="{{ url_for('volunteer.signup') }}" method="POST">
+                    <button type="submit" class="btn btn-success btn-lg">
+                        <i class="bi bi-hand-thumbs-up"></i> Sign Me Up!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
