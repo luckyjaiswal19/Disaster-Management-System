@@ -63,3 +63,11 @@ A centralized disaster relief coordination platform featuring interactive event 
 - **User Account**:
     - Email: `john@example.com`
     - Password: `password123`
+
+
+### Pictures
+
+<img width="1470" height="830" alt="DMS_P1" src="https://github.com/user-attachments/assets/5751ee15-c650-42cf-bb4b-9d23add27df0" />
+<img width="1470" height="830" alt="DMS_P2" src="https://github.com/user-attachments/assets/3e0898ad-40c9-4349-ba09-760e713ef6ca" />
+<img width="1470" height="830" alt="DMS_P3" src="https://github.com/user-attachments/assets/fbab3892-16f0-4b58-81a7-f5b887e36179" />
+
